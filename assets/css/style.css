@@ -1,3 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-    
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	margin: 0 auto;
+	overflow: auto;
+	background-color: #cccccc;
+}
+
+.body{
+	width: 960px;
+	background-color: white;
+	padding: 30px;
+	margin: 10px;
+	box-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+	overflow: auto;
+	height: 400px;
+}
+
+.header {
+	font-family: Times, serif;
+	border-bottom: 1px solid #cccccc;
+	/* padding: 10px; */
+	background-color: #ffffff;
+	
+}
+
+.name{
+	background-color:  #4aaaa5;
+	padding: 25px;
+	float: left;
+	color: white;
+	font-size: 30px;
+	margin-left: 200px;
+}
+
+.nav{
+	color: #cccccc;
+	font-size: 20px;
+	padding: 20px;
+	height: 40px;
+	margin-right: 200px;
+
+}
+
+.about{
+	float: right;
+	padding: 5px;
+	border-right: 1px solid #cccccc;
+}
+
+.portfolio{
+	float: right;
+	padding: 5px;
+	border-right: 1px solid #cccccc;
+	
+}
+
+.contact{
+	float: right;
+	padding: 5px;
+	
+}
+
+.heading{
+	color: #4aaaa5;
+	font-size: 30px;
+	border-bottom: 1px solid #cccccc;
+	padding: 20px;
+}
+
+.picture{
+	margin-top: 10px;
+	float: left;
+	width: 20%;
+
+}
+
+.pargraph{
+	margin-top: 10px;
+	float: left;
+	width: 80%;
+}
+
+.footer {
+    position: fixed; 
+    bottom: 0;
+	height: 40px;
+	background-color: #666666;
+	width: 100%;
+	border-top: 10px solid #4aaaa5;
+}
+
+.copyright{
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	margin-top: 20px;
 }
