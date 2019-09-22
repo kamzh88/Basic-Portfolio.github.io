@@ -53,6 +53,7 @@ body {
 	overflow: auto;
 	background-image: URL(../images/ep_naturalwhite.png);
 	font-family: Helvetica, sans-serif;
+	
 }
 
 .body{ /*Use in portfolio.html*/
@@ -215,4 +216,11 @@ input[type=text-message], select{
 .placeholder{
 	text-align: center;
 	margin-top: 8px;
+}
+
+.button1 {
+	padding: 8px 24px;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 20px;
 }
