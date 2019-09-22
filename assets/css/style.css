@@ -51,24 +51,38 @@ table {
 body {
 	margin: 0 auto;
 	overflow: auto;
-	background-color: #cccccc;
+	background-image: URL(../images/ep_naturalwhite.png);
+	font-family: Helvetica, sans-serif;
 }
 
-.body{
+.body{ /*Use in portfolio.html*/
 	width: 960px;
 	background-color: white;
 	padding: 30px;
-	box-align: center;
 	margin: 0 auto;
 	margin-top: 30px;
 	overflow: auto;
-	height: 400px;
+	height: 550px;
+	border-radius: 5px;
+	border-color: #dddddd;
+}
+
+.body1{ /*Use in index.html*/
+	width: 960px;
+	background-color: white;
+	padding: 30px;
+	margin: 0 auto;
+	margin-top: 30px;
+	overflow: auto;
+	height: 300px;
+	border-radius: 5px;
+	border-color: #dddddd;
 }
 
 .header {
 	font-family: Times, serif;
-	border-bottom: 1px solid #cccccc;
-	/* padding: 10px; */
+	border-bottom: 5px solid #cccccc;
+	font-family: Times, serif;
 	background-color: #ffffff;
 	
 }
@@ -114,7 +128,7 @@ body {
 	color: #4aaaa5;
 	font-size: 30px;
 	border-bottom: 1px solid #cccccc;
-	padding: 20px;
+	padding: 0;
 	margin-bottom: 20px;
 }
 
@@ -129,6 +143,8 @@ body {
 	margin-top: 10px;
 	float: left;
 	width: 80%;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 .footer {
@@ -177,4 +193,26 @@ input[type=text-message], select{
 	border-radius: 4px;
 	box-sizing: border-box;
 	line-height: 6px;
+}
+
+.container{
+	position: relative;
+	text-align:center;
+	color: white;
+	float: left;
+	margin: 10px 90px;
+}
+
+.placeholder1{
+		position: absolute;
+		background-color: #4aaaa5;
+		bottom: 8px;
+		left:0;
+		width: 100%;
+		height: 30px;
+}
+
+.placeholder{
+	text-align: center;
+	margin-top: 8px;
 }
